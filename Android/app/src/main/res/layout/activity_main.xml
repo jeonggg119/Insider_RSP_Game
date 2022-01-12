@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- 안내 텍스트 -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="12조"
+        app:layout_constraintBottom_toTopOf="@+id/button_setting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- 설정 버튼: 규칙 설정 or 연결 설정 or 12조 명단 등 자유롭게 활용 계획 -->
+    <Button
+        android:id="@+id/button_setting"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:text="매칭하기"
+        app:layout_constraintBottom_toTopOf="@+id/button_center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- "게임 설명" 버튼: 이 버튼이 가로 세로 50% 지점에 위치.
+        다른항목들은 이 버튼을 기준으로 5dp씩 떨어져 있음-->
+    <Button
+        android:id="@+id/button_center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="게임 설명"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- "게임 시작(2인)"버튼: 2명 모두 연결 성공 시 활성화. -->
+    <Button
+        android:id="@+id/button_play2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:text="게임 시작"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_center"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <!-- "게임 시작(1인)"버튼: 연습 모드. 1인만 연결되어도 사용 가능 -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

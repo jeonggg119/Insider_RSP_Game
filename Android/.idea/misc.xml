@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/EEE3545_e3_1105_new/app/src/main/res/layout/activity_camera_1.xml" value="0.39947916666666666" />
+        <entry key="..\:/EEE3545_e3_1105_new/app/src/main/res/layout/activity_camera_2.xml" value="0.39947916666666666" />
+        <entry key="..\:/EEE3545_e3_1105_new/app/src/main/res/layout/activity_explain.xml" value="0.39947916666666666" />
+        <entry key="..\:/EEE3545_e3_1105_new/app/src/main/res/layout/activity_main.xml" value="0.39947916666666666" />
+        <entry key="..\:/EEE3545_e3_1105_new/app/src/main/res/layout/activity_result1.xml" value="0.39947916666666666" />
+        <entry key="..\:/EEE3545_e3_1105_new/app/src/main/res/layout/activity_result2.xml" value="0.39947916666666666" />
+        <entry key="..\:/EEE3545_e3_1105_new/app/src/main/res/layout/activity_setting.xml" value="0.39947916666666666" />
+        <entry key="..\:/Users/Cho/AndroidStudioProjects/EEE3545_e3_1105/app/src/main/res/layout/activity_camera.xml" value="0.32864583333333336" />
+        <entry key="..\:/Users/Cho/AndroidStudioProjects/EEE3545_e3_1105/app/src/main/res/layout/activity_camera_1.xml" value="0.5515625" />
+        <entry key="..\:/Users/Cho/AndroidStudioProjects/EEE3545_e3_1105/app/src/main/res/layout/activity_camera_2.xml" value="0.5515625" />
+        <entry key="..\:/Users/Cho/AndroidStudioProjects/EEE3545_e3_1105/app/src/main/res/layout/activity_explain.xml" value="0.5" />
+        <entry key="..\:/Users/Cho/AndroidStudioProjects/EEE3545_e3_1105/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Cho/AndroidStudioProjects/EEE3545_e3_1105/app/src/main/res/layout/activity_result1.xml" value="0.5515625" />
+        <entry key="..\:/Users/Cho/AndroidStudioProjects/EEE3545_e3_1105/app/src/main/res/layout/activity_result2.xml" value="0.5515625" />
+        <entry key="..\:/Users/Cho/AndroidStudioProjects/EEE3545_e3_1105/app/src/main/res/layout/activity_setting.xml" value="0.32864583333333336" />
+        <entry key="..\:/Users/Cho/AndroidStudioProjects/EEE3545_e3_1105/app/src/main/res/xml/file_paths.xml" value="0.5515625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
