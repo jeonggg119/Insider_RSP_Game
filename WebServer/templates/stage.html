@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <script>
+            alert("{{messages[0]}}")
+        </script>
+    {% endif %}
+{% endwith %}
+
+<p>당신의 상대방을 매칭하세요!</p>
+<form action="{{match}}" method="post">
+    <button name="match" value="match">매칭하기</button>
+</form>
+
+<p>무엇을 냈는지 "파일 선택"을 통해 이미지를 업로드 하세요</p>
+<form action="{{upload}}" method="post" enctype="multipart/form-data">
+    <input type="file" name="filename" accept=".jpg,.png">
+    <input type="submit">
+</form>
+
+<p>업로드를 완료하면 결과를 확인하세요!</p>
+<form action="{{results}}" method="post">
+    <button name="results" value="results">결과 확인하기</button>
+</form>
+
+{% if match_result %}
+    {% if match_result == 'Win' %}
+        <p> 축하합니다! 당신이 승리하였습니다! </p>
+    {% elif match_result == 'Lose' %}
+        <p> 아쉽습니다.. 당신은 패배하였습니다. </p>
+    {% else  %}
+        <p> 비겼습니다. </p>
+    {% endif %}
+    <div class="column">
+        <img src="{{player_preds_path}}">
+        <img src="{{opponent_preds_path}}">
+    </div>
+    <p> 다른 플레이어와 게임을 진행하시려면 새로고침을 클릭해주십시오. </p>
+{% endif %}
+
+</body>
+</html>

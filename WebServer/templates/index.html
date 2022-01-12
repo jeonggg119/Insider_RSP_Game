@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <script>
+            alert("{{messages[0]}}")
+        </script>
+    {% endif %}
+{% endwith %}
+
+<p>가위-바위-보 게임! 게임에 참여하시려면 아이디를 입력하세요:</p>
+<form action="{{login}}" method="post">
+    <input type="text" name="id">
+    <input type="submit" value="submit">
+</form>
+
+</body>
+</html>
